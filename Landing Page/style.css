@@ -1,0 +1,74 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+
+h1 {
+  color: violet;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.intro-content p {
+  font-size: 25px;
+  text-align: center;
+  background-color: silver;
+}
+
+section {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: larger;
+}
+
+.container box {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  max-width: 750px;
+  text-align: justify;
+}
+
+.box h3 {
+  color: #333;
+}
+
+.box p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.sbox {
+  color: black;
+  border-width: 5px;
+  border-style: solid;
+  font-size: 15px;
+  display: inline-block;
+  width: 300px;
+  border-color: slategrey;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.sbox h3 {
+  text-align: center;
+  color: rgb(10, 11, 11);
+}
+
+.contact a {
+  font-size: 30px;
+  padding: 5px;
+}
